@@ -3,13 +3,13 @@
 #include<math.h>
 
 int main(){
-    double s,d,PI=atan(1)*4;
+    double s,d,PI=atan(1)*4; //PI
     char a[4];
     while(scanf("%lf%lf%s",&s,&d,a)!=EOF){
         if(strcmp(a,"min")==0){
             d/=60;
         }
-        d=fmod(d,360);
+        d=fmod(d,360); //fmod
         if(d>180){
             d=360-d;
         }
