@@ -17,8 +17,8 @@ int main(){
         }
         swap(&data[index],&data[i]);
     }
-    for(int k=0;k<8;k++){
-        printf("%d ",data[k]);
+    for(i=0;i<8;i++){
+        printf("%d ",data[i]);
     }
     return 0;
 }
