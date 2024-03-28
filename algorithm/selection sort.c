@@ -7,7 +7,7 @@ void swap(int *a, int *b){
 }
 int main(){
     int data[8]={16,25,39,27,12,8,45,63};
-    int i,j,min,index;
+    int i,j,index;
     for(i=0;i<7;i++){
         index=i;
         for(j=i+1;j<8;j++){
